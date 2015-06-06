@@ -21,7 +21,7 @@
         <configuration>
           <instructions>
             <Bundle-License>non-free</Bundle-License>
-            <Bundle-Vendor>Oracle/RedHat</Bundle-Vendor>
+            <Bundle-Vendor>Oracle</Bundle-Vendor>
             <_exportcontents>*</_exportcontents>
             <Export-Package>
               oracle.core.*;version="${project.version}",
