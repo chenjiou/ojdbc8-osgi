@@ -19,7 +19,7 @@ For example to build the bundle for the Oracle JDBC driver for Java 1.6, follow 
 3. Edit the POM to reflect the Oracle RDBMS version.
 4. Install the driver to the local Maven repository.
 
-        mvn install:install-file -Dfile=ext/ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
+        mvn install:install-file -Dfile=ojdbc6.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
 
 5. Build and install the OSGi wrapped driver bundle.
 
